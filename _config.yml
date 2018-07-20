@@ -6,9 +6,18 @@ collections:
     title: Order Created
     output: true
     permalink: "/order-created/:path/"
-  posts:
-    title: Posts
+  order_confirmed:
+    title: Order Confirmed
     output: true
+    permalink: "/order-confirmed/:path/"
+  order_sent:
+    title: Order Sent
+    output: true
+    permalink: "/order-sent/:path/"
+  order_cancelled:
+    title: Order Cancelled
+    output: true
+    permalink: "/order-cancelled/:path/"
   uploads:
     title: Uploads
     output: true
