@@ -1,0 +1,26 @@
+---
+title: Kula
+subject: Order Created
+preview_text: Your Order has been created.
+logo_path: "/uploads/KULA_logo.png"
+logo_width: 215
+logo_height: 22
+header_path: "/headers/header-default.html"
+header_background_color: "#007209"
+footer_path: "/footers/footer-default.html"
+show_order_details: true
+show_pricing_details: false
+---
+
+<h1 class="editable">Order Received</h1>
+<h3 class="editable"><br />Hi [[ first_name ]],</h3>
+<div class="editable"><div>Thank you for placing order [[ order_id ]].&nbsp;</div><div>Your order will be confirmed shortly, we will notify you by email.<br />The credit card used has been authorized. dfgdf gfh &nbsp;Your card will be charged once your purchase has been confirmed.</div><div>&nbsp;</div></div>
+{% if page.show_order_details or page.show_pricing_details %}
+    <h2 class="editable">Order Details:</h2>
+{% endif %}
+{% if page.show_order_details %}
+    {% include order-details.html %}
+{% endif %}
+{% if page.show_pricing_details %}
+    {% include pricing-details.html %}
+{% endif %}

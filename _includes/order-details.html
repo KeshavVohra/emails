@@ -1,0 +1,50 @@
+<table border="0" cellpadding="0" cellspacing="0">
+    [% if buyer_mask_id %]
+        <tr>
+            <td align="center" valign="top">Order:</td>
+            <td align="center" valign="top">[[ buyer_mask_id ]]</td>
+        </tr>
+    [% endif %]
+    [% if date_purchased %]
+        <tr>
+            <td align="center" valign="top">Order Date:</td>
+            <td align="center" valign="top">[[ date_purchased ]]</td>
+        </tr>
+    [% endif ]]
+    [[ if categories_name %]
+        <tr>
+            <td align="center" valign="top">Event:</td>
+            <td align="center" valign="top">[[ categories_name ]]</td>
+        </tr>
+    [% endif %]
+    [% if venue_name %]
+        <tr>
+            <td align="center" valign="top">Venue:</td>
+            <td align="center" valign="top">[[ venue_name ]]</td>
+        </tr>
+    [% endif %]
+    [% if event_date %]
+        <tr>
+            <td align="center" valign="top">Event Date:</td>
+            <td align="center" valign="top">[[ event_date ]]</td>
+        </tr>
+    [% endif %]
+    [% if seat_section %]
+        <tr>
+            <td align="center" valign="top">Section:</td>
+            <td align="center" valign="top">[[ seat_section ]]</td>
+        </tr>
+    [% endif %]
+    [% if seat_row %]
+        <tr>
+            <td align="center" valign="top">Row:</td>
+            <td align="center" valign="top">[[ seat_row ]]</td>
+        </tr>
+    [% endif %]
+    [% if products_quantity %]
+        <tr>
+            <td align="center" valign="top">Venue:</td>
+            <td align="center" valign="top">[[ products_quantity ]]</td>
+        </tr>
+    [% endif %]
+</table>

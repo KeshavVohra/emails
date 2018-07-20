@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/order-created/aaa/</loc>
+</url>
+<url>
+<loc>/order-created/fx/</loc>
+</url>
+<url>
+<loc>/footers/footer-aaa.html</loc>
+<lastmod>2016-12-22T10:24:04-05:00</lastmod>
+</url>
+<url>
+<loc>/footers/footer-default.html</loc>
+<lastmod>2016-12-12T16:08:46-05:00</lastmod>
+</url>
+<url>
+<loc>/headers/header-default.html</loc>
+<lastmod>2016-12-12T16:08:46-05:00</lastmod>
+</url>
+<url>
+<loc>/headers/test.html</loc>
+<lastmod>2016-12-12T16:08:46-05:00</lastmod>
+</url>
+</urlset>
